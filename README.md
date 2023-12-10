@@ -24,12 +24,14 @@ set 'code/run_finetune.sh' as run file
 
 ## 4 results_in_our_article 
 Summary of the outcome data reported in the article.
+Please visit [Data for PBCNet] (https://zenodo.org/records/10339407) to download and unzip results in our article.
 
 ## 5 code/PBCNet.pth 
 The trained PBCNet
 
 ## 6 data 
 Note: The nature of pairwise input required for PBCNet results in one sample appearing in multiple sample pairs. Therefore, to reduce the time spent on data processing during training and prediction, we store most of the data as pickle files.
+Please visit [Data for PBCNet] (https://zenodo.org/records/10339407) to download and unzip data.
 #### 6.1 FEP1 
 The ligands in the FEP1 set on mol2 and sdf formats; the protein and pocket files on mol2 and pdb formats; and the computing results of intermolecular interactions.
 #### 6.2 FEP2 
