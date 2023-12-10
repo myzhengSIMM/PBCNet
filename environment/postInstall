@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -e
+
+
+# conda install -c dglteam dgl-cuda11.3=0.8.1
+conda install -c dglteam dgl
+# conda install biopython
+conda install -c conda-forge rdkit
+# # conda install openbabel -c conda-forge
+conda install tqdm
+# conda install pytorch==1.10.2 torchvision==0.11.3 torchaudio==0.10.2 -c pytorch
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+conda install requests
+conda install scikit-learn
+conda install openpyxl
+pip install dgllife
+conda install pyg -c pyg 
