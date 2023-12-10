@@ -31,7 +31,7 @@ two_task=1
 
 
 retrain=1
-retrain_model_path="/code/PBCNet.pth"
+# retrain_model_path="/code/PBCNet.pth"
 
 
 # rcs_sub3_angle_and_dist*0.0005_3
@@ -54,7 +54,7 @@ python ./finetune.py \
 --init_lr ${init_lr} \
 --final_lr ${final_lr} \
 --retrain ${retrain} \
---retrain_model_path ${retrain_model_path} \
+# --retrain_model_path ${retrain_model_path} \
 --degree_information ${degree_information} \
 --cs ${cs} \
 --fold ${fold} \
