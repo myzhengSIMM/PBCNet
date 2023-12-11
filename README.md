@@ -16,7 +16,6 @@
 
 ## 2 How to finetune the PBCNet? 
 set 'code/run_finetune.sh' as run bash file
-bash code/run_finetune.sh
 
 ## 3 code/model_code 
 ### The skeleton code of the PBCNet model.
