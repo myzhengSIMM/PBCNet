@@ -50,3 +50,5 @@ The  model input files (csv files) for tarining.
 The ligands in the selection test set on mol2 and sdf formats and the protein and pocket files on mol2 and pdb formats.
 #### 6.9 selection_graph 
 The corresponding pickle files of the selection test set.
+#### 6.10 GARF_probability_distribution.xlsx
+The file combined with Graph_save.py are used for processing new ligands and proteins into pickle files.
